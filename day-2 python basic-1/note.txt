@@ -1,0 +1,8 @@
+three major use of python 
+1) data science 
+2) automation 
+3) web dev 
+	backend dev 
+		flask (simple and light weight) and django (more powerfull and complex) 
+
+development of python 2.x has been stop since feb 2020. 
