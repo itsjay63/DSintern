@@ -5,3 +5,5 @@ This include day wise notes/code , weekly tasks , mini projects and final projec
 final project defination : 
 E-commerce store reivew classification using deep learning techniques with cloud deployment 
 
+100 days internship 
+
