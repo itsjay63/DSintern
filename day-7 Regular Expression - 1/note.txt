@@ -1,0 +1,58 @@
+Regular expression also called as regex
+
+regex is a set of characters and it creats patterns, based on that pattern we fatch out 
+data(revelent info) from the large dataset 
+
+ex: email id from dataset 
+
+use : text analysis, speech analysis(NLP), info extraction, document classification 
+
+task 
+
+open given dataset in sublime text editor and ctrl+f(find)
+
+write different regex and observe 
+\d - it will highlight all the digits 
+\d\d - it will highlight digit in pair of 2 
+\d\d\d - pair of 3 
+\d{2} - pair of 2 
+\d{2,4} - pair of 2,3,4...but it will start with 4 ..then 3 then 2
+
+\D - highlight all the non digit (white space, new line, spacebar)
+
+\. - search for dot 
+\.{3} - search for 3 dot pair 
+\.\.\. - will work same as above 
+
+[abc] - it will search any a any b and any c , all individual search  
+[abc]{3} - it will search any a, any b and any c in pair of 3 ,aba,bbb,cba,etc
+[a-z]{3} - it will search any a to z , but it will be in pair of 3 
+[a-z0-9A-Z] 
+[^abc] - it will search except a b and c 
+
+\w - search any alphanumeric values 
+\W - search any non-alphanumeric values 
+
+\s - search for white space
+
+^abc - search for abc only in the beginning 
+abc$ - search for abc only in the end
+
+^ and $ are meta char 
+
+quantifires 
+
++ at least one or more occurences
+
+[a-c]+\.{4}[d-f]+
+
+* - zero or more occurences 
+
+[a-c]*\.{4}[d-f]*
+
+? - zero or only one 
+
+[a-c]?\.{4}[d-f]?
+
+
+
