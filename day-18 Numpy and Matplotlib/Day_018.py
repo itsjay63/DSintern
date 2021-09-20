@@ -91,7 +91,7 @@ plt.plot(x,y)
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
 branchnames = ('CSE', 'ECE', 'IT', 'EE')
 sizes = [10, 5, 5, 2]
-apart = (0.2, 0, 0, 0.1)  # only "explode" the 2nd slice (i.e. 'Hogs')
+apart = (0, 0, 0, 0.1)  # only "explode" the 4th slice (i.e. 'EE')
 
 
 plt.pie(sizes, explode=apart ,labels=branchnames, autopct='%.2f%%')
