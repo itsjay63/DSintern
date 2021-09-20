@@ -3,7 +3,7 @@ pandas use for data manupi lation analysis
 internaly it uses C 
 EDA : exploratary data analysis 
        initial investigation about data 
-pandas will load the data(read-csv) in data frame(tabular form)(row , coloumn)
+pandas will load the data(read-csv) in data frame(tabular form in main memory)(row , coloumn)
 pandas add index coloum in dataframe
 to check the version of pandas : pd.__version__
 list of funtions in pd : dir(pd)
