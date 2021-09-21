@@ -1,0 +1,3 @@
+model is a object of class 
+and the class holds a implementation code correspoding algo (linear regression)
+this modules are available in sklearn 
