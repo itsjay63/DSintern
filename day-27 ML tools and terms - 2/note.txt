@@ -1,0 +1,60 @@
+unsupervised ML --------------------------------------------------------	
+
+only feature data is given ,so it is called unlabeld dataset
+and here we cant find mapping function because y(label) is not given
+Clustering or Association 
+
+clustering : group data based on features is called clustering
+		   : algorithms 
+				k means
+				dbscane (density based scan)
+				Hirarical clustering
+
+Association : 	recommendation engine 
+				if user purchase item x so what would be the probability user will buy
+				item y. so they put item y in suggestion list , to show that who buys 
+				item x also buys item y1, y2 , y3 , etc. which are closely associated 
+				with item x.
+				amazon,flipkart,myntra,netflix,important in reatil(stuff together which are 
+				closely associated)
+			:algorithms 
+				apriori
+				
+
+Data analytics-----------------------------------------
+infering or finding the insight from the past data 
+descriptive analytics (what happned)
+predictive analytics (what will happned)
+prescriptive analytics(what to do)
+
+
+visulization-------------------------------------------
+showing data in graph or chart format
+
+NLP----------------------------------------------------
+how machine will understand your audio/speech, text 
+alexa, siri 
+it is complex because our language is natural it evolves with time so 
+speech recognation 
+
+Recommendation engine----------------------------------
+based on association pricipals
+collaboratue filtering 
+lightfm open source lib for recommendation engline 
+lib : NLTK 
+	  textblobs
+	  vader
+	  gensim 
+
+RPA----------------------------------------------------
+removing maual activity and automate it using script or software 
+selenium : automatic web scraping 
+chatbots 
+bots used by recruitment : allorics 
+
+DS-----------------------------------------------------
+anything related to data is data science 
+it is an big umbrella 
+it covers everything like analytics , data engineering , wrangling , etc 
+
+data scientist : along with technical skill + good understanding for domain 
