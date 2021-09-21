@@ -1,0 +1,18 @@
+linear regression : drawing a straight line 
+
+it is a best fit line 
+
+error(d)= |actual value - predicted value|
+
+but we have to minimize the error , so it can be a good fit line 
+so how are we going to optimize the problem 
+
+so , lose fun/cost fun = sqrt((d1^2+d2^2+.....)/N) , where N=number of data points 
+for which value of m,c the above equation will be min.
+
+but in terms of linear regression lose/cost fun it is knows as root mean square error(RMSE).
+
+from algo to algo you will have change in equation and name.
+
+so will use gradient-desent that will find a m and c for us so the above equation
+will be min.
