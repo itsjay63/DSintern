@@ -1,0 +1,76 @@
+AI : any machine which behave like human is a AI machine
+
+how to enable machine as a AI machine ? 
+ML : is a way to achive AI , but it is not the only way 
+
+for data computation/processing we use neural network 
+so this machine have a specific name is called deep learning 
+
+Mathematics-------------------------------------------------------------- 
+y=f(x) , x=independent variable 
+		 y=dependent variable/target/response 
+		 f=mapping function 
+		 
+in genereal case f and x is given so we can find y , in mathematics 
+
+Ml-----------------------------------------------------------------------
+	>But in ML world x and y are given so we can find f,so for the new values of x 
+	 we can find y. 
+	>finding mapping function is called training 
+	 and finding values for y based on new x is called prediction 
+	>this x and y called data set 
+	>x = feature 
+	>y = label 
+	>we can choose right ML algorithms to find mapping function
+	>ML algorithm called model
+	>finding mapping function using ML model is called  training 
+
+supervised ML -----------------------------------------------------------
+
+dataset(x,y) is given so we can find mapping function
+based on that prediction is there but what kind of prediction 
+regrassion  or  classification
+regrassion : number , continuous values 
+			  salary prediction
+			  box office collection prediction
+			  percentage marks 
+			  what will be the population 
+			:algorithms 
+				linear regrassion 
+				random forest (RF)
+				decision tree (DT)
+				svr (support vector regressor)
+classification : category /class 
+                 victory/defeat 
+				 hit / flop 
+				 cat/dog 
+				 green/ red signal 
+				:algorithms
+					KNN (k nearest neighbour)
+					SVM (support vector machine)
+					Naive baise 
+					logistic regrassion
+					DT
+					RF
+supervised dataset is called labled dataset 
+
+unsupervised ML --------------------------------------------------------	
+
+only feature data is given ,so it is called unlabled dataset		 
+
+DL----------------------------------------------------------------------
+>DL also classified in two things 
+>supervised DL and Unsupervised DL 
+>supervised DL : most of the business related problems are solved using this 
+				:algorithms 
+				>ANN(artificial nural network): basic backbone of any NN 
+					it is so powerfull that it can perform regrassion and 
+					classification both 
+				>CNN(convoluted nural network): primarly use in CV 
+				>RNN(recurrent nural network): 
+						suggestion of words in gmail, it is a RNN based
+						ML Model 
+
+
+when to use ML and when to use DL ??
+					
