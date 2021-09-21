@@ -1,0 +1,19 @@
+Life cycle of a ML/AI project
+1 - data identification 
+2 - data preparation 
+3 - feature engineering 
+4 - algorithm selection 
+5 - train + tune
+6 - UI 
+7 - deployment 
+8 - model monitory + management 
+
+
+json is a data format it looks similar to dict in python
+read_json : convert a json string to pandas object.
+
+we use chunking method to handel large datasets(in gb) because of primary memory limit 
+read_json('filename',chunking=1000000) 
+so will get 33 chunks in total because 32292099 records / 1000000 = 33.
+
+here, we merged all the sample csv(33) to balanced.csv
