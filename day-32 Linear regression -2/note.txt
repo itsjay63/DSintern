@@ -1,0 +1,4 @@
+ mean square error(MSE)= (d1^2+d2^2+....)/N
+ Absolute error = (|d1|+|d2|+|d3|+... / N)
+ 
+ but for linear regression we use RMSE in most cases 
