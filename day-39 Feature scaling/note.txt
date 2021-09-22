@@ -1,0 +1,34 @@
+feature scaling = normalization 
+
+while performing linear regression , model think that higher magnitude values are 
+more important, but it is not perfectly correct. 
+
+so we need strategy to common scale the data it is called normalization .
+
+it requires when data is in different scale.
+
+2 different strategy
+1)standard scaling 
+2)minmax scaling(deep learning)
+
+it doesnt mean minmax only use in deep learning, standard scaling also used in deep 
+learning as well . 
+
+standard scaling--------------------------------------------------------
+
+(x-mean) / SD,  SD=sqrt(variance)
+
+if x> mean , ans will be +ve 
+if x< mean , ans will be -ve 
+all the values will be converted to -1 to 1 
+
+
+minmax scaling----------------------------------------------------------
+
+(x-min)/(max-min)
+all the values will be converted to 0-1 scale 
+
+
+after normalization all the data will become in ND 
+so their avg is 0 , SD will become 1 . 
+bell curve 
