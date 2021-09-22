@@ -1,0 +1,16 @@
+out of all the features which features are really important 
+to perform other steps(regression etc.) so we choose only that 
+important features , model can become more robast it is called feature scaling 
+
+feature selection 
+1) forward selection 
+2) backward elimination 
+
+
+P values------------------------------------------------------------------------------
+is a probability that says your column by chance has come under decison making process 
+
+it means p > 5% , column come under decison making process by chance it is not important
+
+it is just a indicator 
+thresold value is 5% 
