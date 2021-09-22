@@ -1,0 +1,14 @@
+KNN - k nearest neighbour 
+
+k is a value : 3,5,7,etc. 
+why odd ??
+if the value is 2 , it can creates 50-50 so we choose odd numbers 
+
+so what would be right value for k 
+if the value for k is low ... we can get result faster but quality of decision 
+may be poor 
+
+if the value for k is high .... it reqires high computation but it will also 
+provide quality decision 
+
+so value for k must be in balance 
