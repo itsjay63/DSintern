@@ -1,0 +1,19 @@
+"""
+Import movie.csv file
+
+There are two categories: 
+Pos (reviews that express a positive or favorable 
+sentiment)and 
+Neg (reviews that express a negative or 
+unfavorable sentiment).
+
+For this code challenge, we will assume that 
+all reviews are either positive or negative;
+there are no neutral reviews.
+
+Perform sentiment analysis on the text reviews 
+to determine whether its positive
+or negative and build confusion matrix to determine 
+the accuracy.
+
+"""
