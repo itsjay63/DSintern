@@ -1,0 +1,26 @@
+count vectorizer approch------------------------------------------------------
+
+in sparse matrix/bag of words , we can get the number that how many times that 
+particular word occures but we never know that what is importance of that word 
+in document(row in dataset)
+
+but know , we are going to check each document where each word/term used and their 
+relevance in that document , if we find any document with lower importance of word 
+we are going to drop that document 
+
+this approch is called Tf-idf vectorizer.
+
+Tf-idf : score for a word in a document 
+
+Tf : term frequency 
+idf : inverse document frequency
+
+Tf x idf = for final score 
+
+Tf : (on one document)
+	count(word)/ length(document)
+
+idf: (on entire document set )
+	log(total no of document/no of document that contain a word)
+	
+higher the score : more relevance that word is in that particular document
