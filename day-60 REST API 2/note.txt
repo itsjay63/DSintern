@@ -1,0 +1,18 @@
+different API
+
+get : 
+	it is like fatch/retrive info, 
+	it is like read method
+	get info from db , server 
+post :
+	primarily use for creating new set of information/record on server
+	
+put : 
+	it is like updating existing resource
+patch :
+	partial update 
+delete : delete 
+
+but how to identify given api is get or post ??
+
+if you are sending query string, to fetch info it is a get api 
