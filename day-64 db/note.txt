@@ -1,0 +1,20 @@
+after web scraping we have to save the data to some where so we cant lost it 
+but if it in csv file (flat flie system). 
+the thing is that in future if you want to make any update or change it is quite 
+difficult to handle.
+because in flat flie system there is no feature , that can enable me to update this
+file , search data , delete data by code . 
+to overcome this things we can use DB, because db provide this type of features.
+
+mobile phone uses sqlite3 
+address book uses sqlite3
+
+
+collection = all the tables 
+document = set of info(record)
+
+if db is not exist , if you connect with name.db , it will create new db 
+
+sql : SELECT * FROM table name WHERE condition 
+
+cursor mechanism will create copy of db and put it inside the primary memory
